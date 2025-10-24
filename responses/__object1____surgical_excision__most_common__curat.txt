@@ -1,0 +1,46 @@
+This JSON object details common medical treatments for various skin conditions, primarily focusing on **skin cancers and precancerous lesions**.
+
+---
+
+### Object1: Treatments for Basal Cell Carcinoma (BCC) & Squamous Cell Carcinoma (SCC)
+
+These are the most common types of non-melanoma skin cancers.
+
+*   **Surgical Excision:** Standard removal of the tumor with a margin of healthy tissue; often curative for localized lesions.
+*   **Mohs Micrographic Surgery:** A precise surgical technique for high-risk or cosmetically sensitive areas, involving layer-by-layer removal and microscopic examination to ensure complete tumor clearance while preserving maximum healthy tissue.
+*   **Electrocautery and Curettage:** Scraping away the lesion with a curette and then burning the base with an electric current to destroy remaining cells.
+*   **Cryosurgery:** Freezing and destroying the lesion using liquid nitrogen, often for superficial or small lesions.
+*   **Radiation Therapy:** Uses high-energy radiation to kill cancer cells, typically for unresectable lesions, or as adjuvant therapy after surgery to reduce recurrence risk.
+*   **Topical Therapies (Imiquimod, 5-Fluorouracil):** Creams applied directly to the skin for superficial lesions.
+    *   **Imiquimod:** An immune response modifier that stimulates the body's immune system to attack cancer cells.
+    *   **5-Fluorouracil (5-FU):** An antimetabolite that interferes with DNA synthesis, selectively killing rapidly dividing abnormal cells.
+*   **Systemic Therapies:** Oral or intravenous medications for advanced or metastatic disease.
+    *   **Vismodegib, Sonidegib:** Hedgehog pathway inhibitors, specifically approved for advanced BCC.
+    *   **Checkpoint Inhibitors (e.g., Pembrolizumab, Nivolumab):** Immunotherapy drugs that block proteins (like PD-1) that prevent the immune system from attacking cancer cells, used for advanced SCC.
+    *   **Targeted Therapy:** Drugs that target specific molecular pathways driving cancer growth, also for advanced SCC.
+
+---
+
+### Object2: Treatments for Melanoma
+
+Melanoma is a more aggressive form of skin cancer arising from melanocytes.
+
+*   **Surgical Excision (Wide Local Excision with Clear Margins, Sentinel Lymph Node Biopsy):** Primary treatment. Wide local excision removes the tumor with a larger margin of healthy tissue than BCC/SCC due to its metastatic potential. Sentinel lymph node biopsy is a procedure to identify and remove the first lymph node(s) to which cancer cells would likely spread, used for staging and guiding further treatment.
+*   **Adjuvant Therapy:** Treatment given after primary surgery to reduce the risk of recurrence.
+    *   **Immunotherapy (Pembrolizumab, Nivolumab, Ipilimumab):** Checkpoint inhibitors that activate the immune system to fight remaining cancer cells. Pembrolizumab and Nivolumab target PD-1; Ipilimumab targets CTLA-4.
+    *   **Targeted Therapy (BRAF/MEK Inhibitors):** For melanomas with specific genetic mutations (e.g., BRAF V600 mutation), these drugs block the abnormal signaling pathways driving cancer growth (e.g., Vemurafenib, Dabrafenib for BRAF; Trametinib, Cobimetinib for MEK).
+*   **Systemic Therapies (Immunotherapy, Targeted Therapy, Chemotherapy):** Used for metastatic (spreading) melanoma. Immunotherapy and targeted therapy are now primary systemic treatments, often preferred over traditional chemotherapy due to better efficacy and side effect profiles.
+*   **Radiation Therapy:** Used for specific purposes like treating brain metastases, painful bone metastases, or as palliative care to relieve symptoms.
+
+---
+
+### Object3: Treatments for Actinic Keratosis (AK)
+
+Actinic Keratosis (AK) are precancerous rough, scaly patches on sun-exposed skin that can progress to Squamous Cell Carcinoma (SCC).
+
+*   **Cryosurgery:** Freezing of individual lesions with liquid nitrogen, causing them to blister and fall off.
+*   **Topical 5-Fluorouracil (5-FU):** An antimetabolite cream that selectively destroys rapidly growing precancerous cells.
+*   **Topical Imiquimod:** An immune response modifier cream that stimulates the immune system to clear abnormal cells.
+*   **Diclofenac Gel:** A topical non-steroidal anti-inflammatory drug (NSAID) with some efficacy in treating AKs, particularly for field treatment (treating a broader area of sun-damaged skin).
+*   **Chemical Peels:** Application of chemical solutions to the skin to remove the outer layers, which contain the AKs.
+*   **Photodynamic Therapy (PDT):** Involves applying a photosensitizing agent (e.g., aminolevulinic acid) to the skin, which is absorbed by abnormal cells, followed by exposure to a specific light source to activate the agent and destroy the precancerous cells.

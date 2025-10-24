@@ -1,0 +1,32 @@
+This JSON object provides a concise medical summary of **Acute Adrenal Insufficiency**, also known as an **Adrenal Crisis**.
+
+*   **Object1: Title**
+    *   **Acute Adrenal Insufficiency (Adrenal Crisis, Management):** A life-threatening emergency where the adrenal glands fail to produce sufficient cortisol, a vital stress hormone.
+
+*   **Object2: Causes**
+    *   Often occurs in patients with pre-existing **Addison's disease** (chronic adrenal insufficiency) who experience a major physical stressor like infection, trauma, or surgery.
+    *   Can be caused by sudden destruction of the adrenal glands, such as from bleeding (**hemorrhage**) or tissue death (**infarction**). **Waterhouse-Friderichsen syndrome** is a classic example, involving adrenal hemorrhage often due to severe sepsis.
+
+*   **Object3: Signs & Symptoms**
+    *   **Profound shock:** Severe low blood pressure (hypotension) and a rapid heart rate (tachycardia) due to cortisol's role in maintaining vascular tone.
+    *   **Neurological:** Extreme weakness, confusion, or coma resulting from shock and metabolic disturbances.
+    *   **Gastrointestinal:** Severe nausea, vomiting, and abdominal pain.
+    *   **Metabolic/Electrolyte:**
+        *   **Hyponatremia:** Low blood sodium.
+        *   **Hyperkalemia:** High blood potassium.
+        *   **Hypoglycemia:** Low blood sugar.
+    *   **Pigmentation:** Skin darkening may be present if the crisis is due to a long-standing (chronic) primary adrenal failure.
+
+*   **Object4: Diagnosis**
+    *   **Clinical Diagnosis:** Treatment should be started immediately based on symptoms, without waiting for lab confirmation.
+    *   **Hormone Levels:** Blood tests will show low **cortisol**. **ACTH** (a pituitary hormone) will be high if the adrenal gland is the problem (primary) or low if the pituitary is the problem (secondary).
+    *   **Lab Findings:** Confirms the classic triad of **hyponatremia, hyperkalemia, and hypoglycemia**. A complete blood count (CBC) may show high levels of certain white blood cells (**eosinophilia**).
+
+*   **Object5: Treatment**
+    *   **IV Hydrocortisone:** Immediate replacement of the missing cortisol with high-dose intravenous steroids.
+    *   **Fluid Resuscitation:** Aggressive IV fluids (normal saline) are given to correct dehydration, shock, and low sodium.
+    *   **IV Glucose:** Administered to correct low blood sugar.
+    *   **Treat Precipitating Cause:** Address the underlying trigger, such as giving antibiotics for an infection.
+
+*   **Object6: Complications**
+    *   If untreated, the condition rapidly leads to **hypovolemic shock** (circulatory collapse from fluid loss), **cardiac arrest**, severe electrolyte imbalances causing seizures or fatal arrhythmias, and ultimately, **death**.

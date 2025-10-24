@@ -1,0 +1,42 @@
+**ASCITES** is the pathological accumulation of free fluid within the PERITONEAL CAVITY.
+
+**Causes (Etiology):**
+The most common cause (80% of cases) is **CIRRHOSIS**, primarily due to PORTAL HYPERTENSION and SPLANCHNIC VASODILATION. Other etiologies include:
+*   **HEART FAILURE** (right-sided, biventricular, constrictive PERICARDITIS) due to elevated CENTRAL VENOUS PRESSURE.
+*   **MALIGNANCY** (PERITONEAL CARCINOMATOSIS, primary PERITONEAL CANCER, LIVER METASTASIS) through PERITONEAL involvement, LYMPHATIC OBSTRUCTION, or PORTAL HYPERTENSION.
+*   **NEPHROTIC SYNDROME** due to severe HYPOALBUMINEMIA.
+*   **PANCREATITIS** (acute, chronic) from leakage of PANCREATIC FLUID into the PERITONEAL CAVITY.
+*   **BUDD-CHIARI SYNDROME** (HEPATIC VENOUS OUTFLOW OBSTRUCTION).
+*   **TUBERCULOSIS** (PERITONEAL TUBERCULOSIS).
+*   **HYPOTHYROIDISM** (MYXEDEMA ASCITES).
+*   **DIALYSIS** complications (especially PERITONEAL DIALYSIS).
+*   Severe **MALNUTRITION** leading to HYPOALBUMINEMIA.
+
+**Symptoms (Clinical Manifestations):**
+Patients typically present with ABDOMINAL DISTENSION and increased ABDOMINAL GIRTH, accompanied by WEIGHT GAIN, ABDOMINAL DISCOMFORT, fullness, or pressure. With significant fluid accumulation, DYSPNEA can occur due to upward displacement of the DIAPHRAGM. Other signs include ANKLE EDEMA, EARLY SATIETY, and the development of HERNIAS (UMBILICAL, INGUINAL) due to increased INTRA-ABDOMINAL PRESSURE. On PHYSICAL EXAMINATION, a FLUID WAVE and SHIFTING DULLNESS are characteristic findings.
+
+**Diagnosis:**
+Diagnosis relies on:
+*   **PHYSICAL EXAMINATION:** Identifying ABDOMINAL DISTENSION, FLUID WAVE, and SHIFTING DULLNESS.
+*   **IMAGING:** **ABDOMINAL ULTRASOUND** is the first-line method for detecting fluid and assessing the liver, spleen, and PORTAL VEIN. CT SCAN or MRI provide more detailed evaluation.
+*   **DIAGNOSTIC PARACENTESIS:** Aspiration of ASCITIC fluid for analysis is crucial. Key analyses include:
+    *   **CELL COUNT AND DIFFERENTIAL:** A NEUTROPHIL count >250 cells/µL is highly suggestive of SPONTANEOUS BACTERIAL PERITONITIS (SBP).
+    *   **TOTAL PROTEIN and ALBUMIN:** Used to calculate the **SERUM-ASCITES ALBUMIN GRADIENT (SAAG)**.
+    *   **CULTURE:** To identify bacterial infection (e.g., for SBP).
+    *   **CYTOLOGY:** To detect MALIGNANCY.
+    *   **GLUCOSE, LDH, AMYLASE:** For specific etiologies like PANCREATITIS.
+The **SAAG** is a key diagnostic discriminator:
+    *   **SAAG ≥1.1 g/dL** indicates ASCITES caused by PORTAL HYPERTENSION (e.g., CIRRHOSIS, HEART FAILURE, BUDD-CHIARI SYNDROME).
+    *   **SAAG <1.1 g/dL** suggests non-PORTAL HYPERTENSIVE causes (e.g., MALIGNANCY, PANCREATITIS, NEPHROTIC SYNDROME).
+
+**Treatment (Management):**
+Treatment primarily focuses on addressing the UNDERLYING CAUSE. For **CIRRHOSIS-related ASCITES**:
+*   **SODIUM RESTRICTION** (<2g/day) is the first-line intervention.
+*   **DIURETICS:** **SPIRONOLACTONE** (an ALDOSTERONE ANTAGONIST, first-line) is typically combined with **FUROSEMIDE** (a LOOP DIURETIC) for effective DIURESIS, titrated to achieve a weight loss of 0.5 kg/day.
+*   **THERAPEUTIC PARACENTESIS:** Performed for large or TENSE ASCITES to relieve symptoms, often accompanied by ALBUMIN INFUSION to prevent POST-PARACENTESIS CIRCULATORY DYSFUNCTION.
+*   **TIPS (TRANSJUGULAR INTRAHEPATIC PORTOSYSTEMIC SHUNT):** Considered for REFRACTORY ASCITES.
+*   **LIVER TRANSPLANTATION:** The definitive treatment for end-stage CIRRHOSIS.
+**SPONTANEOUS BACTERIAL PERITONITIS (SBP)** is treated with ANTIBIOTICS (e.g., CEFOTAXIME), and PROPHYLAXIS (e.g., NORFLOXACIN, CIPROFLOXACIN) is indicated to prevent recurrence.
+
+**Complications:**
+Significant complications include **SPONTANEOUS BACTERIAL PERITONITIS (SBP)**, which is a life-threatening infection of the ASCITIC fluid; TENSE ASCITES leading to severe discomfort and DYSPNEA; UMBILICAL HERNIA (with a risk of rupture); **HEPATORENAL SYNDROME** (renal failure in advanced CIRRHOSIS); ELECTROLYTE DISTURBANCES (HYPONATREMIA, HYPERKALEMIA) due to DIURETIC use; and MALNUTRITION from dietary restrictions.

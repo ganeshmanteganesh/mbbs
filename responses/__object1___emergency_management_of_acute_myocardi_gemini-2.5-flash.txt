@@ -1,0 +1,37 @@
+**Emergency Management of Acute Myocardial Infarction (AMI)**
+
+Acute Myocardial Infarction (AMI), a severe form of Acute Coronary Syndrome (ACS), is a medical emergency characterized by MYOCARDIAL NECROSIS due to prolonged ISCHEMIA. Immediate recognition and management are crucial for patient survival and preventing long-term complications.
+
+**Clinical Presentation:** Patients typically present with PROLONGED CARDIAC CHEST PAIN (>20 minutes), often described as constricting or crushing, radiating to the left arm or jaw, and NOT RELIEVED by rest or nitrates. Associated symptoms include NAUSEA, VOMITING, DIAPHORESIS, DYSPNEA, anxiety, and a sense of IMPENDING DOOM. Physical signs may include RALES, S3 GALLOP, HYPOTENSION, TACHYCARDIA, or BRADYCARDIA, indicative of potential HEART FAILURE.
+
+**Diagnostic Investigations:**
+*   **ECG (12-lead):** Must be obtained immediately (within 10 minutes) to identify ST-SEGMENT ELEVATION (STEMI), NEW LEFT BUNDLE BRANCH BLOCK (LBBB), or significant ST-SEGMENT DEPRESSION/T-WAVE INVERSION (NSTEMI).
+*   **PLASMA CARDIAC BIOMARKERS:** Serial measurements of TROPONIN I/T and CK-MB are essential for confirming MYOCARDIAL DAMAGE.
+*   **BLOOD TESTS:** Complete Blood Count (CBC), ELECTROLYTES, RENAL FUNCTION tests, LIPID PROFILE, and GLUCOSE are also performed.
+*   **CHEST X-RAY:** Assesses for PULMONARY EDEMA or CARDIOMEGALY.
+*   **ECHOCARDIOGRAPHY:** Evaluates VENTRICULAR FUNCTION and detects mechanical complications.
+
+**Emergency Management:** Immediate admission to an INTENSIVE CARE UNIT (ICU) or CORONARY CARE UNIT (CCU) is mandatory. Initial interventions follow the **"MONA"** protocol:
+*   **MORPHINE:** For pain relief.
+*   **OXYGEN:** Administered if the patient is HYPOXIC.
+*   **NITROGLYCERIN:** Sublingual or intravenous, for pain and vasodilation.
+*   **ASPIRIN:** Chewable, for ANTIAGREGANT effects.
+
+Further management includes:
+*   **ANTIPLATELET THERAPY:** Dual antiplatelet therapy (ASPIRIN + P2Y12 INHIBITOR like CLOPIDOGREL, PRASUGREL, or TICAGRELOR).
+*   **ANTICOAGULATION:** With HEPARIN or LOW MOLECULAR WEIGHT HEPARIN (LMWH).
+*   **REPERFUSION THERAPY (for STEMI):** Critical to restore blood flow to the ISCHEMIC MYOCARDIUM within optimal timeframes.
+    *   **PRIMARY PERCUTANEOUS CORONARY INTERVENTION (PCI):** (Angioplasty with stent placement) is the preferred method.
+    *   **FIBRINOLYTIC THERAPY:** (e.g., STREPTOKINASE, ALTEPLASE, TENECTEPLASE) is administered if PCI is not readily available.
+*   **PHARMACOLOGICAL THERAPY:** Oral BETA-BLOCKERS (unless contraindicated), ACE INHIBITORS/ARBs, and high-dose STATINS are initiated.
+*   **COMPLICATION MANAGEMENT:** Prompt treatment of ARRHYTHMIAS, HEART FAILURE, CARDIOGENIC SHOCK, or mechanical complications.
+
+**Potential Complications:** AMI can lead to severe complications including:
+*   **ARRHYTHMIAS:** Such as VENTRICULAR FIBRILLATION (VF), VENTRICULAR TACHYCARDIA (VT), and HEART BLOCKS.
+*   **HEART FAILURE, PULMONARY EDEMA, CARDIOGENIC SHOCK.**
+*   **CARDIAC RUPTURE:** Involving the PAPILLARY MUSCLE, INTERVENTRICULAR SEPTUM, or FREE WALL.
+*   **MITRAL REGURGITATION** and **VENTRICULAR SEPTAL DEFECT.**
+*   **VENTRICULAR ANEURYSM.**
+*   **PERICARDITIS.**
+*   **THROMBOEMBOLISM:** Systemic or pulmonary.
+*   Ultimately, the most feared complication is **DEATH**.

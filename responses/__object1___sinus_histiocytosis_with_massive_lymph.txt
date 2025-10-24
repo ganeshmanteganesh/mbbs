@@ -1,0 +1,13 @@
+This JSON describes **Rosai-Dorfman Disease (RDD)**, also known as Sinus Histiocytosis with Massive Lymphadenopathy.
+
+*   **Disease**: Rosai-Dorfman Disease (RDD), a rare, benign histiocytic disorder characterized by the accumulation of large, atypical histiocytes (a type of macrophage) in lymph nodes and other tissues.
+*   **Clinical Presentation**:
+    *   **Bulky Lymphadenopathy**: Predominantly presents with significant, often painless, enlargement of lymph nodes, particularly in the cervical region, primarily affecting children and young adults.
+    *   **Extranodal Involvement**: Can affect various organs beyond lymph nodes, including the skin, upper airways, gastrointestinal (GI) tract, and central nervous system (CNS), leading to diverse clinical symptoms.
+*   **Histopathology**: Key microscopic features include:
+    *   **Lymphoid Proliferation**: An increase in lymphoid cells within affected tissues.
+    *   **Thick Fibrous Capsule**: Encapsulation of affected areas.
+    *   **Distention of Lymphoid Sinuses**: Enlargement of the lymphatic sinuses within lymph nodes, packed with histiocytes.
+    *   **Plasma Cell Accumulation**: Presence of plasma cells (antibody-producing B cells).
+    *   **Large/Atypical Histiocytes**: The hallmark feature – large histiocytes with abundant cytoplasm, often exhibiting **emperipolesis** (the engulfment of intact lymphocytes, plasma cells, or erythrocytes by the histiocytes, without their destruction).
+*   **Associated Conditions**: Can be associated with autoimmune disorders, such as autoimmune hemolytic anemia.

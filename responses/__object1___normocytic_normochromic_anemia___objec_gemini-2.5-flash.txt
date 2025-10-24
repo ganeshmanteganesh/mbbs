@@ -1,0 +1,28 @@
+**Normocytic Normochromic Anemia** is a type of Anemia characterized by **NORMAL-SIZED RED BLOOD CELLS (RBCs)** and **NORMAL MEAN CORPUSCULAR VOLUME (MCV)**, indicating that the individual RBCs are of appropriate size and have a normal hemoglobin concentration, despite the overall reduction in the total number of RBCs or hemoglobin.
+
+This condition arises from two primary mechanisms:
+
+1.  **DECREASED RED CELL PRODUCTION:**
+    *   **ANEMIA OF CHRONIC DISEASE (ACD):** Often seen in chronic inflammatory, infectious, or neoplastic conditions.
+    *   **CHRONIC RENAL FAILURE:** Due to insufficient Erythropoietin production.
+    *   **CHRONIC LIVER DISEASE:** Impaired synthesis of clotting factors and other erythropoietic components.
+    *   **ENDOCRINE DISORDERS:** Such as **HYPOPITUITARISM, HYPOTHYROIDISM**, and **HYPOADRENALISM**, which can affect erythropoiesis.
+    *   **HEMATOLOGICAL DISORDERS:** Including **MARROW HYPOPLASIA/APLASIA**, **MYELOPROLIFERATIVE NEOPLASMS**, **MYELOFIBROSIS**, and some forms of **SIDEROBLASTIC ANEMIA**.
+    *   **EXPANSION OF PLASMA VOLUME:** As seen in **PREGNANCY**, which can cause dilutional anemia.
+
+2.  **INCREASED RED CELL LOSS OR DESTRUCTION:**
+    *   **ACUTE BLOOD LOSS:** Direct loss of RBCs from the circulation.
+    *   **HYPERSPLENISM:** Increased sequestration and destruction of RBCs by an enlarged spleen.
+    *   **HEMOLYTIC ANEMIAS (HEMATOLOGICAL DISORDERS):**
+        *   **HEMOGLOBINOPATHIES:** Such as **SICKLE CELL DISEASE**.
+        *   **HEREDITARY SPHEROCYTOSIS**.
+        *   **GLUCOSE-6-PHOSPHATE DEHYDROGENASE (G6PD) DEFICIENCY**.
+        *   **MICROANGIOPATHIC ANEMIAS:** Such as **DISSEMINATED INTRAVASCULAR COAGULATION (DIC), THROMBOTIC THROMBOCYTOPENIC PURPURA (TTP)**, and **HEMOLYTIC UREMIC SYNDROME (HUS)**, where RBCs are mechanically damaged.
+        *   **AUTOIMMUNE HEMOLYTIC ANEMIA (AIHA):** Immune-mediated destruction of RBCs.
+        *   **PAROXYSMAL NOCTURNAL HEMOGLOBINURIA (PNH):** A rare acquired disorder leading to complement-mediated hemolysis.
+
+**CLINICAL PRESENTATION:** Patients typically exhibit general **SYMPTOMS OF ANEMIA**, which may include fatigue, weakness, pallor, shortness of breath, dizziness, and headache. **SIGNS OF ANEMIA** may include pallor of mucous membranes and nail beds, and potentially Tachycardia.
+
+**DIAGNOSIS:** Involves a **COMPLETE BLOOD COUNT (CBC)** to confirm anemia and determine RBC indices (MCV, MCH, MCHC), followed by a **PERIPHERAL SMEAR** examination to assess RBC morphology and identify specific features like spherocytes, sickle cells, or fragmented RBCs. Further specialized tests are guided by the suspected underlying cause.
+
+**TREATMENT:** The primary approach is to address and **TREAT THE UNDERLYING DISEASE** or condition causing the anemia. This may involve nutritional support, medication adjustments, management of chronic illnesses, or specific therapies for hematological disorders.

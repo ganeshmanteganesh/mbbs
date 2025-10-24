@@ -1,0 +1,24 @@
+This JSON object comprehensively describes **Cytokines**, small protein messengers critical for intercellular communication, particularly in immunology.
+
+*   **Cytokines (Object1):** The central topic.
+*   **Definition & Characteristics (Object2):**
+    *   Small proteins/peptides (5-20 kDa) involved in **cell signaling**.
+    *   Cannot cross cell membranes; act by binding to **cell surface receptors**.
+    *   Produced by diverse cells: **immune cells** (e.g., T-helper, macrophages) and **non-immune cells** (e.g., endothelial, fibroblasts).
+    *   Act as messengers in **immunity, inflammation, hematopoiesis, and tissue repair**.
+    *   Mechanisms of action: **autocrine** (self), **paracrine** (local), or **endocrine** (distant).
+*   **Key Classes (Object3):**
+    *   **Interleukins (ILs):** Regulate immune cell growth, differentiation, and activation.
+    *   **Interferons (IFNs):** Antiviral and immunomodulatory effects.
+    *   **Tumor Necrosis Factors (TNFs):** Involved in inflammation, apoptosis, and immune regulation.
+    *   **Chemokines:** Guide cell migration (chemotaxis), especially immune cells.
+    *   **Colony-Stimulating Factors (CSFs):** Promote the growth and differentiation of blood cells (hematopoiesis).
+*   **Primary Biological Functions (Object4):**
+    *   **Regulate immune and inflammatory responses.**
+    *   **Mediate communication** between immune cells.
+    *   Promote **cell growth, differentiation, and survival**.
+    *   **Coordinate hematopoiesis** (blood cell production).
+*   **Clinical Relevance & Therapeutic Applications (Object5):**
+    *   **Pro-inflammatory cytokines** (e.g., TNF-alpha, IL-1, IL-6) drive pathologies like **sepsis, autoimmune diseases, and chronic inflammation**.
+    *   **Anti-inflammatory cytokines** (e.g., IL-10, TGF-beta) are crucial for **immune regulation** and suppressing inflammation.
+    *   Serve as **therapeutic targets**: e.g., **anti-TNF agents** (for rheumatoid arthritis), **IL-6 inhibitors** are used in various inflammatory and autoimmune conditions.

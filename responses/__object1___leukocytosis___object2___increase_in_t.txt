@@ -1,0 +1,21 @@
+This JSON object describes **Leukocytosis**, an elevated white blood cell count, detailing its definition, common causes, and general management.
+
+*   **Object1: Leukocytosis**
+    *   **Concept:** A medical term indicating an abnormally high total number of leukocytes (white blood cells) in the blood.
+
+*   **Object2: Increase in total number of leukocytes >11,000/cu mm (usually neutrophils, rarely lymphocytes, monocytes, eosinophils).**
+    *   **Definition:** Quantitatively defines leukocytosis as a leukocyte count exceeding 11,000 cells per cubic millimeter.
+    *   **Cell Types:** Specifies that this increase is most commonly due to neutrophils (neutrophilia), but can also be caused by lymphocytes (lymphocytosis), monocytes (monocytosis), or eosinophils (eosinophilia) depending on the underlying condition.
+
+*   **Object3: ["Infections (Bacterial, Viral - infectious mononucleosis).", "Leukemia (Acute, Chronic - CLL, CML).", "Leukemoid reactions.", "Physiological (Pregnancy, Exercise)."]**
+    *   **Etiology/Causes:** Lists the primary reasons for leukocytosis:
+        *   **Infections:** Bacterial infections often cause neutrophilic leukocytosis; viral infections (e.g., infectious mononucleosis) typically cause lymphocytosis.
+        *   **Leukemia:** Cancers of the white blood cells, including both acute and chronic forms (e.g., Chronic Lymphocytic Leukemia (CLL) or Chronic Myeloid Leukemia (CML)).
+        *   **Leukemoid reactions:** Severe, non-leukemic increases in WBCs (often >50,000/cu mm), mimicking leukemia but caused by extreme physiological stress or infection.
+        *   **Physiological:** Normal, non-pathological increases seen in conditions like pregnancy or after strenuous exercise.
+
+*   **Object4, Object5, Object6, Object8: []**
+    *   **No Information Provided:** These are empty arrays, indicating that no specific data on categories like symptoms, diagnostic tests, complications, or prognosis is included in this object.
+
+*   **Object7: ["Treat underlying cause." ]**
+    *   **Management:** The primary approach to managing leukocytosis is to identify and treat the root cause, as leukocytosis itself is a symptom, not a disease.

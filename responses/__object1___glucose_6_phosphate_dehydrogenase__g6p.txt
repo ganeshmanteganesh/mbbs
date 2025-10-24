@@ -1,0 +1,22 @@
+**G6PD Deficiency: An X-linked Enzymopathy Leading to Oxidative Hemolysis**
+
+**Core Concept:** Glucose-6-Phosphate Dehydrogenase (G6PD) Deficiency (Object1) is the most common human enzyme deficiency, an X-linked genetic disorder primarily affecting red blood cells (RBCs) (Object3). G6PD is crucial for the pentose phosphate pathway, producing NADPH. NADPH maintains glutathione in its reduced state (GSH), essential for neutralizing reactive oxygen species (ROS) and protecting RBCs from oxidative damage (Object3).
+
+**Pathophysiology:** In individuals with deficient G6PD activity, RBCs cannot produce enough NADPH, compromising their ability to reduce glutathione. This leaves them highly susceptible to oxidative stress from various triggers (e.g., specific drugs, fava beans, infections) (Object3). Oxidative damage denatures hemoglobin, forming insoluble precipitates called **Heinz bodies** (demonstrated by supravital staining). These attach to the RBC membrane, leading to membrane damage and premature destruction (hemolysis), often resulting in characteristic **bite (blister) cells** as splenic macrophages remove the damaged portions (Object5, Object8).
+
+**Clinical Manifestations (Object2, Object4):**
+1.  **Acute Hemolytic Anemia (AHA):** Most commonly triggered by oxidants, presenting with rapid onset of anemia and hemoglobinuria ("cola-colored urine"). Rarely leads to acute renal failure. Onset can be abrupt (favism in children).
+2.  **Neonatal Jaundice (NNJ):** Severe jaundice in newborns, posing a significant risk of kernicterus (brain damage).
+3.  **Chronic Non-Spherocytic Hemolytic Anemia (CNSHA):** A rare, chronic form characterized by persistent anemia, jaundice, and splenomegaly.
+
+**Genetic Variants & Triggers (Object3):** Common variants include G6PD A- (absence of enzyme activity) and G6PD B- or G6PD Mediterranean (severe deficiency). Triggers for AHA include drugs (e.g., primaquine, sulfonamides, nitrofurantoins), fava beans, and infections (viral, bacterial).
+
+**Diagnosis (Object6):**
+*   **Clinical Suspicion:** Symptoms like acute anemia, jaundice, or hemoglobinuria after exposure to known triggers. Most patients are clinically asymptomatic otherwise (Object4).
+*   **Laboratory Findings:** Evidence of intravascular hemolysis includes elevated unconjugated bilirubin, high LDH, low/absent plasma haptoglobin, hemoglobinemia, and hemoglobinuria (Object6).
+*   **Peripheral Blood Film:** Typically normocytic and normochromic, showing anisocytosis, polychromasia (reticulocytosis), poikilocytes, spherocytes, **bite (blister) cells**, and **Heinz bodies** (Object5).
+*   **Confirmation:** Direct measurement of G6PD enzyme activity in red cells. It's crucial to perform this test after an acute hemolytic episode to avoid falsely normal results from young RBCs/reticulocytes, which have higher enzyme activity (Object6).
+
+**Management & Complications (Object7, Object8):**
+*   **Treatment:** Primarily supportive, focusing on identifying and strictly avoiding oxidative triggers. Blood transfusions may be necessary for severe anemia, and regular folic acid supplements are recommended for CNSHA. Standard management applies for neonatal jaundice. Genetic counseling is advised.
+*   **Complications:** Acute renal failure from severe AHA, kernicterus and potential death from untreated NNJ, and gallstones (due to chronic hemolysis) in CNSHA.

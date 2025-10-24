@@ -1,0 +1,8 @@
+**Hemoglobinopathies** are a group of inherited genetic **BLOOD DISORDERS** characterized by abnormal production or structure of **HEMOGLOBIN**, the protein in red blood cells responsible for oxygen transport. They are broadly categorized into four main types:
+
+1.  **Qualitative Defects:** Involve the production of structurally abnormal **HEMOGLOBIN** variants due to mutations in the globin genes. Examples include **HEMOGLOBIN S** (responsible for **SICKLE CELL DISEASE**), **HEMOGLOBIN C**, and **HEMOGLOBIN D PUNJAB**.
+2.  **Quantitative Defects:** Known as **THALASSEMIAS**, these disorders result from reduced production of one or more globin chains. Examples include **ALPHA-THALASSEMIA** and **BETA-THALASSEMIA**.
+3.  **Combined Qualitative and Quantitative Defects:** Feature both an abnormal **HEMOGLOBIN** structure and reduced globin chain synthesis. Examples include **HEMOGLOBIN E** and **SICKLE-CELL BETA-THALASSEMIA**.
+4.  **Acquired Hemoglobinopathies:** While less common, these conditions are not inherited and typically result from external factors leading to altered **HEMOGLOBIN** function. Examples include **METHEMOGLOBINEMIA** (often due to toxic exposures) and **CARBOXYHEMOGLOBINEMIA**.
+
+Diagnosis primarily relies on specialized laboratory tests such as **HEMOGLOBIN ELECTROPHORESIS** and **HIGH-PERFORMANCE LIQUID CHROMATOGRAPHY (HPLC)**, which separate and identify different **HEMOGLOBIN** types.

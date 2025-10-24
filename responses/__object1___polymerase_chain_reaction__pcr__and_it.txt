@@ -1,0 +1,17 @@
+**Polymerase Chain Reaction (PCR) and its Applications**
+
+*   **Core Concept**: PCR is a fundamental *in vitro* molecular biology technique that enzymatically amplifies specific DNA sequences exponentially, generating millions of copies from a minute initial sample. The process involves repeated thermal cycles:
+    1.  **Denaturation**: Heating to separate DNA strands.
+    2.  **Annealing**: Cooling to allow specific **DNA primers** (short synthetic DNA strands) to bind to target DNA.
+    3.  **Extension**: Optimal temperature for a thermostable **DNA polymerase** (e.g., *Taq* polymerase) to synthesize new DNA strands using **deoxyribonucleotide triphosphates (dNTPs)** as building blocks.
+
+*   **Key Applications in Medical/Scientific Fields**:
+    *   **Genetic Testing**: Diagnosis of inherited diseases (e.g., cystic fibrosis, Huntington's disease), paternity determination, and forensic DNA analysis (DNA fingerprinting).
+    *   **Infectious Disease Diagnosis**: Highly sensitive detection and quantification of pathogens like viruses (e.g., HIV viral load, COVID-19 testing, hepatitis viruses) and bacteria (e.g., *Mycobacterium tuberculosis*).
+    *   **Cancer Detection & Monitoring**: Identification of specific oncogenic mutations, chromosomal translocations (e.g., BCR-ABL in CML), and detection of minimal residual disease (MRD) post-treatment.
+    *   **Research & Biotechnology**: Gene cloning, DNA sequencing preparation, gene expression analysis, and creating genetic constructs.
+
+*   **Important PCR Variants**:
+    *   **Real-time PCR (qPCR)**: Quantifies the initial amount of target DNA/RNA by measuring fluorescence intensity during amplification, critical for viral load monitoring or gene expression studies.
+    *   **Reverse Transcription PCR (RT-PCR)**: Utilizes **reverse transcriptase** to convert RNA into complementary DNA (cDNA) before standard PCR, enabling the detection and amplification of RNA viruses (like SARS-CoV-2) or mRNA transcripts.
+    *   **Multiplex PCR**: Amplifies multiple distinct DNA targets simultaneously in a single reaction, saving time and sample, often used for differential diagnosis or screening for multiple pathogens.

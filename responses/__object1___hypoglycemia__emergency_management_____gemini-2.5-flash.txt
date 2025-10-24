@@ -1,0 +1,28 @@
+**Hypoglycemia (Emergency Management)**
+
+Hypoglycemia represents an acute medical emergency characterized by an abnormally LOW BLOOD GLUCOSE LEVEL, typically defined as ≤70 mg/dL, though severe cases can present with significantly lower values. While often linked to **DIABETES MELLITUS**, its emergency management focuses on immediate symptom reversal and prevention of complications.
+
+**Clinical Manifestations:**
+Symptoms are broadly categorized into:
+*   **NEUROGENIC SYMPTOMS (Autonomic):** These result from the sympathetic nervous system's response to low glucose and include SWEATING, TREMOR, TACHYCARDIA (rapid heart rate), ANXIETY, and HUNGER.
+*   **NEUROGLYCOPENIC SYMPTOMS:** These arise from GLUCOSE DEPRIVATION in the brain and can manifest as DIZZINESS, HEADACHE, CONFUSION, ABNORMAL BEHAVIOR, SEIZURES, and ultimately LOSS OF CONSCIOUSNESS (HYPOGLYCEMIC COMA).
+
+**Diagnosis:**
+Diagnosis primarily relies on:
+*   **BLOOD GLUCOSE LEVEL:** A reading of ≤70 mg/dL is diagnostic, though clinical judgment is paramount in symptomatic individuals.
+*   **SERUM INSULIN and C-PEPTIDE LEVELS:** These may be evaluated if an INSULINOMA or other endogenous causes of hyperinsulinemia are suspected.
+
+**Emergency Management:**
+Treatment is dictated by the patient's consciousness and ability to swallow safely:
+*   **CONSCIOUS PATIENTS:** If the patient is conscious and able to swallow without risk of aspiration, **ORAL CARBOHYDRATES** (e.g., glucose tablets, juice, sugary foods) should be administered immediately.
+*   **IMPAIRED MENTAL FUNCTION/UNCONSCIOUS PATIENTS:**
+    *   **INTRAVENOUS DEXTROSE:** The preferred initial treatment is **50 mL of 50% DEXTROSE (D50W)** administered intravenously. This should be followed by a continuous infusion of 5-10% DEXTROSE to maintain normoglycemia.
+    *   **GLUCAGON:** If INTRAVENOUS ACCESS is difficult or unavailable, **GLUCAGON (0.5-1 mg SUBCUTANEOUSLY or INTRAMUSCULARLY)** can be administered. Note that glucagon is ineffective if liver GLYCOGEN stores are depleted (e.g., in chronic alcoholism or prolonged fasting).
+    *   **OCTREOTIDE:** For recurrent HYPOGLYCEMIA resistant to dextrose infusion (e.g., in cases of SULFONYLUREA OVERDOSE), OCTREOTIDE may be used to suppress insulin release.
+*   **IDENTIFY AND PREVENT RECURRENCE:** After acute stabilization, it is crucial to identify the underlying cause of hypoglycemia and implement strategies to prevent future episodes.
+
+**Potential Complications:**
+Untreated or prolonged severe hypoglycemia can lead to serious and potentially irreversible complications, including:
+*   **PERMANENT BRAIN DAMAGE**
+*   **SEIZURES** and **COMA**
+*   **FALLS and INJURIES** due to altered mental status or loss of consciousness.

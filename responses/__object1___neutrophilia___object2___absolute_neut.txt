@@ -1,0 +1,35 @@
+This JSON object details **Neutrophilia**, a common hematological finding, covering its definition, causes, and management.
+
+*   **Object1: Medical Term**
+    *   **Neutrophilia**: An elevated concentration of neutrophils (a type of white blood cell) in the peripheral blood.
+
+*   **Object2: Diagnostic Criteria**
+    *   **Absolute Neutrophil Count (ANC)** greater than **8000/cu mm** (or 8.0 x 10^9/L). This quantitative threshold defines the condition.
+
+*   **Object3: Etiology (Causes)**
+    *   **Pathological Conditions (Disease-related):**
+        *   **Acute Bacterial/Fungal Infections:** Localized (e.g., pneumonias, pyogenic meningitis, cellulitis, diphtheria, abscess, tonsillitis) or Generalized (e.g., septicemia, acute rheumatic fever). These are common triggers due to the immune response.
+        *   **Acute Inflammatory Processes:** Non-infectious inflammation (e.g., acute appendicitis, vasculitis).
+        *   **Tissue Necrosis:** Conditions involving cell death (e.g., severe burns, myocardial infarction (MI), gangrene, various neoplasms/cancers).
+        *   **Acute Stress/Hypoxic States:** Body's response to severe physiological stress (e.g., following hemorrhage, hemolysis, major surgery).
+        *   **Myeloproliferative Neoplasms:** Bone marrow disorders characterized by overproduction of blood cells (e.g., Chronic Myeloid Leukemia (CML), Polycythemia Vera (PV)).
+        *   **Metabolic:** Disruptions in metabolic balance (e.g., uremia, acidosis, gout).
+        *   **Miscellaneous:** Diverse causes including eclampsia (a severe pregnancy complication) and corticosteroid therapy (steroids can mobilize neutrophils from bone marrow).
+    *   **Physiological Conditions (Normal/Transient):**
+        *   Temporary elevations due to normal body responses (e.g., strenuous exercise, in newborns, exposure to extremes of temperature, pain, emotional stress, obstetric labor).
+
+*   **Object4: Clinical Features**
+    *   (Not specified in this object; clinical features are typically dependent on the underlying cause of neutrophilia.)
+
+*   **Object5: Associated Findings / Laboratory Characteristics**
+    *   **Leukocytosis:** Neutrophilia is usually part of a general increase in total white blood cell count (typically 15-30 x 10^9/L).
+    *   **Differential Count:** The percentage of neutrophils in the white blood cell differential is greater than 70%.
+
+*   **Object6: Complications**
+    *   (Not specified in this object.)
+
+*   **Object7: Treatment**
+    *   **Treat underlying cause:** As neutrophilia is a sign or a symptom, management focuses on diagnosing and treating the primary condition responsible for the elevated neutrophil count.
+
+*   **Object8: Prevention / Further Information**
+    *   (Not specified in this object.)

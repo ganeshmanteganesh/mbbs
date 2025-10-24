@@ -1,0 +1,53 @@
+This JSON object categorizes various medical conditions and symptoms based on different types of hypersensitivity reactions, which are exaggerated or inappropriate immune responses to antigens.
+
+---
+
+**Object1: Type I Hypersensitivity (Immediate/Anaphylactic)**
+
+*   **Concept:** This is a rapid, IgE-mediated reaction triggered by an allergen. It involves the sensitization of mast cells and basophils, leading to the release of histamine and other inflammatory mediators upon re-exposure.
+*   **Manifestations:**
+    *   **Urticaria (hives):** Itchy, raised welts on the skin.
+    *   **Angioedema:** Swelling in deeper layers of the skin or mucous membranes.
+    *   **Pruritus:** Severe itching.
+    *   **Bronchospasm:** Constriction of airways, causing difficulty breathing.
+    *   **Hypotension:** Abnormally low blood pressure.
+    *   **Anaphylactic shock:** A severe, systemic, life-threatening allergic reaction involving multiple organ systems.
+
+---
+
+**Object2: Type II Hypersensitivity (Cytotoxic/Antibody-Mediated)**
+
+*   **Concept:** Involves IgG or IgM antibodies binding to antigens on the surface of host cells or extracellular matrix. This leads to cell destruction via complement activation, antibody-dependent cell-mediated cytotoxicity (ADCC), or functional disruption.
+*   **Manifestations:**
+    *   **Hemolysis:** Destruction of red blood cells, leading to:
+        *   **Anemia:** Low red blood cell count.
+        *   **Jaundice:** Yellowing of skin/eyes due to bilirubin accumulation.
+        *   **Hemoglobinuria:** Hemoglobin in the urine.
+    *   **Thrombocytopenia:** Low platelet count, impairing clotting.
+    *   **Neutropenia:** Low neutrophil count, increasing infection risk.
+    *   **Glomerulonephritis:** Inflammation of the kidney's filtering units (glomeruli), often due to antibodies targeting glomerular basement membrane (e.g., Goodpasture syndrome).
+
+---
+
+**Object3: Type III Hypersensitivity (Immune Complex-Mediated)**
+
+*   **Concept:** Involves the formation of soluble antigen-antibody (immune) complexes that deposit in various tissues (e.g., blood vessel walls, joints, kidneys). These complexes activate complement and recruit inflammatory cells, causing tissue damage.
+*   **Manifestations:**
+    *   **Vasculitis:** Inflammation of blood vessel walls.
+    *   **Glomerulonephritis:** Inflammation of the kidney's filtering units, often due to immune complex deposition (e.g., post-streptococcal glomerulonephritis, lupus nephritis).
+    *   **Arthritis:** Inflammation of joints.
+    *   **Fever:** Systemic inflammatory response.
+    *   **Rash:** Skin eruptions, often due to vasculitis (e.g., palpable purpura).
+
+---
+
+**Object4: Type IV Hypersensitivity (Delayed-Type/Cell-Mediated)**
+
+*   **Concept:** Unlike the first three types, this reaction is primarily mediated by T lymphocytes (T-cells) rather than antibodies, and the symptoms typically appear 24-72 hours after antigen exposure. It involves antigen-specific T-cells releasing cytokines or directly killing target cells.
+*   **Manifestations:**
+    *   **Contact dermatitis:** A localized inflammatory skin reaction (e.g., to poison ivy, nickel) characterized by:
+        *   **Erythema:** Redness.
+        *   **Itching.**
+        *   **Blistering at contact site.**
+    *   **Granulomatous inflammation:** A chronic form of inflammation characterized by the formation of granulomas (collections of activated macrophages) in response to persistent antigens (e.g., in tuberculosis, sarcoidosis).
+    *   **Graft rejection:** The immune system's response to transplanted tissues or organs, primarily mediated by T-cells recognizing foreign major histocompatibility complex (MHC) molecules.

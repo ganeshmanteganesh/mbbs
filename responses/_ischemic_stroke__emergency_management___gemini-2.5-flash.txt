@@ -1,0 +1,7 @@
+Emergency management of ISCHEMIC STROKE is a time-sensitive process focused on rapid recognition, diagnosis, and treatment to restore CEREBRAL BLOOD FLOW and minimize ISCHEMIC BRAIN INJURY. Key steps include immediate transport to a specialized STROKE CENTER, prompt MEDICAL EVALUATION, a focused NEUROLOGICAL EXAMINATION, and an emergent NON-CONTRAST COMPUTED TOMOGRAPHY (CT) scan of the HEAD to differentiate ISCHEMIC from HEMORRHAGIC STROKE.
+
+The primary acute reperfusion therapies are:
+1.  **Intravenous Thrombolysis:** Administration of ALTEPLASE (tPA), a FIBRINOLYTIC agent, within a strict 4.5-HOUR therapeutic window from SYMPTOM ONSET to DISSOLVE THE CLOT blocking a CEREBRAL ARTERY.
+2.  **Endovascular Thrombectomy (Mechanical Thrombectomy):** A catheter-based procedure to PHYSICALLY REMOVE LARGE VESSEL OCCLUSIONS (LVOs), typically performed within 6-24 HOURS for select patients, often in conjunction with IV tPA.
+
+Supportive care is critical and involves monitoring AIRWAY, BREATHING, CIRCULATION (ABC), careful BLOOD PRESSURE management, GLUCOSE control, TEMPERATURE regulation, and preventing complications like CEREBRAL EDEMA or HEMORRHAGIC TRANSFORMATION. The ultimate goal is to optimize NEUROLOGICAL OUTCOME and reduce long-term DISABILITY.

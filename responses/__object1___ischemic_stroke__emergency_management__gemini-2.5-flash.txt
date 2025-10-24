@@ -1,0 +1,25 @@
+**Ischemic Stroke (Emergency Management)**
+
+An Ischemic Stroke is a MEDICAL EMERGENCY resulting from acute interruption of blood flow to a region of the BRAIN, leading to CEREBRAL INFARCTION. For comprehensive information on STROKE and CEREBROVASCULAR DISEASE, refer to the Neurology section.
+
+**Clinical Presentation:**
+Patients typically present with SUDDEN ONSET FOCAL NEUROLOGICAL DEFICITS, such as HEMIPARESIS (weakness on one side of the body), APHASIA (speech disturbance), or VISUAL FIELD DEFICITS. ALTERED CONSCIOUSNESS may be observed. A SEVERE HEADACHE is less commonly associated with ISCHEMIC STROKE compared to HEMORRHAGIC STROKE.
+
+**Diagnostic Workup:**
+Immediate evaluation is critical. It includes:
+*   **EMERGENCY CT SCAN of the BRAIN:** Primarily to rapidly rule out HEMORRHAGE, a contraindication for THROMBOLYTIC therapy.
+*   **MRI of the BRAIN:** Performed if the CT scan is negative for hemorrhage and an ISCHEMIC STROKE is suspected, offering greater sensitivity for early ISCHEMIC changes.
+*   **CT ANGIOGRAPHY / MR ANGIOGRAPHY:** Essential for identifying LARGE VESSEL OCCLUSIONS, which may be amenable to MECHANICAL THROMBECTOMY.
+*   **BLOOD TESTS:** Include GLUCOSE levels, COAGULATION studies (PT/INR, aPTT), and a COMPLETE BLOOD COUNT (CBC).
+
+**Emergency Management:**
+Acute management is time-sensitive and focuses on REPERFUSION and NEUROPROTECTION:
+*   **IV THROMBOLYSIS (tPA - Tissue Plasminogen Activator):** Administered intravenously within 4.5 hours of symptom onset in eligible patients, dissolving the clot.
+*   **MECHANICAL THROMBECTOMY:** An ENDOVASCULAR procedure performed for LARGE VESSEL OCCLUSIONS, typically within 6-24 hours of symptom onset, depending on patient selection and imaging findings.
+*   **BLOOD PRESSURE MANAGEMENT:** Initial PERMISSIVE HYPERTENSION (allowing a higher blood pressure) may be maintained to support CEREBRAL PERFUSION, followed by controlled reduction to prevent complications.
+*   **ANTIPLATELET AGENTS:** ASPIRIN is initiated after THROMBOLYSIS (typically 24 hours later) or immediately if the patient is not eligible for THROMBOLYSIS.
+*   **SUPPORTIVE CARE:** Includes GLYCEMIC CONTROL, TEMPERATURE MANAGEMENT, AIRWAY, BREATHING, and CIRCULATION (ABC) support, and measures to prevent ASPIRATION PNEUMONIA.
+*   **DVT PROPHYLAXIS:** To prevent DEEP VENOUS THROMBOSIS (DVT) and PULMONARY EMBOLISM (PE).
+
+**Potential Complications and Prognosis:**
+Acute complications include HEMORRHAGIC TRANSFORMATION of the INFARCT, BRAIN EDEMA potentially leading to increased INTRACRANIAL PRESSURE (ICP), and SEIZURES. Long-term sequelae often include varying degrees of NEUROLOGICAL DISABILITY, and in severe cases, DEATH.

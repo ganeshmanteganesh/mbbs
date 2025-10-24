@@ -1,0 +1,32 @@
+**Tuberculosis (TB) in HIV Infection**
+
+Tuberculosis (TB) caused by *Mycobacterium tuberculosis* is the MOST common OPPORTUNISTIC INFECTION in individuals with HUMAN IMMUNODEFICIENCY VIRUS (HIV) INFECTION. Its development significantly ACCELERATES the course of HIV infection, and there is a HIGHER PREVALENCE of MULTIDRUG-RESISTANT TB (MDR-TB) in HIV-positive persons.
+
+**Clinical Manifestations:**
+Symptoms are highly DEPENDENT on the LEVEL OF IMMUNOSUPPRESSION.
+*   **PULMONARY TB:** In early stages of HIV, it presents similarly to HIV-negative individuals with UPPER LOBE INFILTRATES and CAVITATION on CHEST X-RAY. However, LOWER LOBE INVOLVEMENT is also frequently observed, especially with advanced immunosuppression. SPUTUM SMEARS are often POSITIVE for ACID-FAST BACILLI (AFB).
+*   **EXTRAPULMONARY TB:** Becomes INCREASINGLY COMMON and often DISSEMINATED with greater immune suppression. Specific manifestations include MATTED CERVICAL LYMPH NODES and CUTANEOUS TUBERCULOSIS, such as LUPUS VULGARIS. A TUBERCULOMA, appearing as a SPACE-OCCUPYING LESION, can be found on CT HEAD scans.
+
+**Diagnosis:**
+Diagnosis relies on:
+*   **CHEST X-RAY:** To identify PULMONARY INFILTRATES, CAVITATION, and other lung abnormalities.
+*   **SPUTUM SMEARS:** For microscopic detection of ACID-FAST BACILLI (AFB).
+*   **CT HEAD:** Recommended for suspected TUBERCULOMAS or CENTRAL NERVOUS SYSTEM (CNS) involvement.
+*   **BIOPSY/ASPIRATION:** For histological examination and culture from EXTRAPULMONARY sites (e.g., lymph nodes, skin lesions).
+
+**Management:**
+Antiretroviral Therapy (ART) is CRUCIAL and commenced in ALL HIV-infected individuals with active TB, REGARDLESS of CD4 CELL COUNT.
+1.  **Sequence of Treatment:** TB treatment is initiated FIRST, followed by ART within 8 weeks of starting TB therapy.
+2.  **Preferred ART Regimens:**
+    *   AZT (Zidovudine) + 3TC (Lamivudine) + EFV (Efavirenz)
+    *   TDF (Tenofovir) + 3TC (Lamivudine) or FTC (Emtricitabine) + EFV (Efavirenz)
+3.  **EFV Intolerance/Contraindication:** NVP (Nevirapine)-based regimen or a TRIPLE NRTI (Nucleoside Reverse Transcriptase Inhibitor) regimen (e.g., AZT + 3TC + ABC (Abacavir) or AZT + 3TC + TDF).
+4.  **Drug Interactions:**
+    *   **RIFAMPICIN** is a potent INDUCER of CYP450 enzymes, which can significantly DECREASE blood levels of Protease Inhibitors (PIs) and some Non-Nucleoside Reverse Transcriptase Inhibitors (NNRTIs). NRTIs are NOT affected.
+    *   Rifampicin can be used with NNRTI Efavirenz and two NRTIs, or with PI Ritonavir and one or more NRTIs, or with two PIs (though the latter is less common).
+    *   **RIFABUTIN** is a preferred alternative for TB treatment if a BOOSTED PI-BASED REGIMEN is required. Rifabutin dosing requires careful adjustment and monitoring when co-administered with ART. For instance, it's typically reduced with Ritonavir/Lopinavir but may need to be increased with Efavirenz.
+
+**Potential Complications/Challenges:**
+*   **IMMUNE RECONSTITUTION INFLAMMATORY SYNDROME (IRIS):** A paradoxical worsening of TB symptoms or new manifestations following ART initiation due to immune recovery.
+*   **REDUCED ADHERENCE:** Due to the HIGH PILL BURDEN from combining TB and HIV medications.
+*   **INCREASED LABORATORY MONITORING:** Essential for Liver Function Tests (LFTs) and Hemoglobin (Hb) estimation due to potential drug toxicities.

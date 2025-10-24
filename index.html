@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Search & Gemini (Cached)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom styles for appearance */
+        body { font-family: 'Inter', sans-serif; }
+        .badge {
+            padding: 2px 8px;
+            border-radius: 9999px; /* full rounded */
+            font-size: 0.75rem; /* text-xs */
+            font-weight: 600; /* font-semibold */
+            margin-left: 0.5rem;
+            display: inline-flex;
+            align-items: center;
+        }
+        .badge-cache { background-color: #10b981; /* emerald-500 */ }
+        .badge-api { background-color: #3b82f6; /* blue-500 */ }
+        .badge-model { background-color: #f97316; /* orange-500 */ }
+        #output ul { padding-left: 1.5rem; list-style-type: none; }
+        #output li { margin-bottom: 0.5rem; }
+        #output li::before { content: '•'; color: #6b7280; margin-right: 0.5rem; }
+        .loading-animation {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #3498db;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            animation: spin 1s linear infinite;
+            display: inline-block;
+            margin-left: 8px;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body class="bg-gray-50 p-4 sm:p-8">
+<div class="container mx-auto max-w-2xl bg-white p-6 sm:p-8 rounded-xl shadow-2xl">
+    <h1 class="text-3xl font-extrabold text-gray-800 mb-6">JSON Search & Gemini (Cached)</h1>
+
+    <div class="space-y-4">
+        <!-- JSON File Loader -->
+        <label for="jsonFile" class="block text-sm font-medium text-gray-700">1. Load JSON Data</label>
+        <input type="file" id="jsonFile" accept=".json" class="w-full border-gray-300 rounded-lg shadow-sm focus:border-indigo-500 focus:ring-indigo-500 file:mr-4 file:py-2 file:px-4 file:rounded-lg file:border-0 file:text-sm file:font-semibold file:bg-indigo-50 file:text-indigo-700 hover:file:bg-indigo-100">
+
+        <!-- Search Box with Suggestions -->
+        <label for="searchBox" class="block text-base font-semibold text-gray-800 mt-6 border-b border-indigo-200 pb-1">2. Search Key or Value (Single Query)</label>
+        <div class="relative">
+            <!-- Enhanced Search Input Design -->
+            <input type="text" id="searchBox" placeholder="Type a medical term or key to search..." 
+                   class="w-full p-4 border-2 border-gray-200 rounded-xl transition duration-300 ease-in-out
+                          focus:ring-4 focus:ring-indigo-200 focus:border-indigo-500 focus:shadow-md">
+            <!-- Enhanced Suggestions Container Design -->
+            <div id="suggestions" class="absolute top-full left-0 right-0 mt-1 bg-white border border-gray-300 rounded-xl shadow-2xl max-h-48 overflow-y-auto z-10 hidden p-1">
+                <!-- Suggestions populate here -->
+            </div>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4">
+            <button id="sendToGemini" class="flex items-center justify-center p-3 bg-indigo-600 text-white font-semibold rounded-lg shadow-md hover:bg-indigo-700 transition duration-150 ease-in-out disabled:opacity-50">
+                Send Selected to Gemini
+            </button>
+            <button id="startBatchProcessing" class="flex items-center justify-center p-3 bg-purple-600 text-white font-semibold rounded-lg shadow-md hover:bg-purple-700 transition duration-150 ease-in-out disabled:opacity-50">
+                Start Batch Processing
+            </button>
+        </div>
+        
+        <!-- Batch Controls -->
+        <label class="block text-base font-semibold text-gray-800 mt-6 border-b border-indigo-200 pb-1">3. Batch Processing Settings</label>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 p-4 bg-gray-100 rounded-lg">
+            <div>
+                <label for="modelSelector" class="block text-sm font-medium text-gray-700">Select Default Model:</label>
+                <select id="modelSelector" class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md">
+                    <option value="gemini-2.5-flash" selected>gemini-2.5-flash (Fast)</option>
+                    <option value="gemini-2.5-pro">gemini-2.5-pro (Advanced)</option>
+                    <option value="gemini-2.0-flash">gemini-2.0-flash</option>
+                    <option value="gemini-2.5-flash-lite">gemini-2.5-flash-lite</option>
+                    <option value="gemini-2.0-flash-exp">gemini-2.0-flash-exp</option>
+                    <option value="gemini-2.0-flash-lite">gemini-2.0-flash-lite</option>
+                </select>
+            </div>
+            <div>
+                <label for="batchSize" class="block text-sm font-medium text-gray-700">Model Switch Limit:</label>
+                <input type="number" id="modelSwitchLimit" value="100" min="1" class="mt-1 block w-full pl-3 pr-3 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md">
+            </div>
+            <div class="sm:col-span-2">
+                <p id="processingStatus" class="text-sm font-medium text-indigo-700">Status: Idle. (Server handles sequential processing and model rotation).</p>
+            </div>
+        </div>
+        
+        <!-- Color Controls -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6 p-4 bg-gray-100 rounded-lg">
+            <div>
+                <label for="headingColor" class="block text-sm font-medium text-gray-700">Heading Color:</label>
+                <select id="headingColor" class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md">
+                    <option value="#dc2626" selected>Red</option>
+                    <option value="#2563eb">Blue</option>
+                    <option value="#059669">Green</option>
+                    <option value="#1f2937">Black</option>
+                </select>
+            </div>
+            <div>
+                <label for="termColor" class="block text-sm font-medium text-gray-700">Medical Term Highlight Color:</label>
+                <select id="termColor" class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md">
+                    <option value="#1f2937" selected>Black</option>
+                    <option value="#dc2626">Red</option>
+                    <option value="#2563eb">Blue</option>
+                    <option value="#059669">Green</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Output Area -->
+        <h3 class="text-xl font-semibold text-gray-800 pt-6 border-t border-gray-200 mt-6">Selected Key/Value Response:</h3>
+        <pre id="output" class="bg-gray-50 border border-gray-200 p-4 rounded-lg text-sm text-gray-700 whitespace-pre-wrap">
+            Nothing selected yet. Load a JSON file (array of objects is preferred) to begin.
+        </pre>
+        <p id="errorMsg" class="text-red-500 text-sm italic"></p>
+    </div>
+</div>
+
+<script>
+let jsonData = [];
+let selectedValueForDisplay = null;
+let selectedValueForAPI = null;
+const output = document.getElementById("output");
+const errorMsg = document.getElementById("errorMsg");
+const searchBox = document.getElementById("searchBox");
+const suggestionsDiv = document.getElementById("suggestions");
+const headingColorSelect = document.getElementById("headingColor");
+const termColorSelect = document.getElementById("termColor");
+const processingStatus = document.getElementById("processingStatus");
+const startButton = document.getElementById("startBatchProcessing");
+const modelSelector = document.getElementById("modelSelector");
+const modelSwitchLimitInput = document.getElementById("modelSwitchLimit");
+
+// --- UTILITY FUNCTIONS ---
+
+function displayMessage(text, isError = false) {
+    if (isError) {
+        errorMsg.textContent = text;
+        // Do not clear output on error for single queries, just set message
+    } else {
+        errorMsg.textContent = "";
+        output.textContent = text;
+    }
+}
+
+// --- INITIALIZATION & FILE LOAD ---
+
+// Load JSON
+document.getElementById("jsonFile").addEventListener("change", function(e) {
+    const file = e.target.files[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = e => {
+        try {
+            jsonData = JSON.parse(e.target.result);
+            if (!Array.isArray(jsonData)) {
+                throw new Error("JSON is not an array.");
+            }
+            displayMessage(`✅ JSON loaded successfully! ${jsonData.length} entries. Start typing in the search box or use batch processing.`);
+            processingStatus.textContent = `Status: Idle. ${jsonData.length} entries loaded.`;
+        } catch(err) {
+            displayMessage("❌ Invalid JSON file. Please ensure it is an array of objects.", true);
+            jsonData = [];
+        }
+    };
+    reader.readAsText(file);
+});
+
+// --- SEARCH LOGIC ---
+
+// Search functionality
+searchBox.addEventListener("input", function() {
+    const query = this.value.toLowerCase().trim();
+    suggestionsDiv.innerHTML = "";
+    suggestionsDiv.style.display = "none";
+
+    if (!query || !jsonData.length) return;
+
+    const matches = [];
+
+    jsonData.forEach(obj => {
+        // Assume format is [{ "Key": "Value" }]
+        const firstKey = Object.keys(obj)[0];
+        // Capture the entire original object here
+        const entireObject = obj; 
+
+        const firstValue = obj[firstKey];
+        const stringValue = "" + (typeof firstValue === 'object' ? JSON.stringify(firstValue) : firstValue);
+
+        if (firstKey.toLowerCase().includes(query) || stringValue.toLowerCase().includes(query)) {
+            // Limit the suggestion display string length
+            const displayString = stringValue.substring(0, 50) + (stringValue.length > 50 ? "..." : "");
+            // Store the entire object in the match structure
+            matches.push({ key: firstKey, value: firstValue, stringValue: displayString, object: entireObject });
+        }
+    });
+
+    if (matches.length) {
+        matches.slice(0, 10).forEach(match => { // Show max 10 suggestions
+            const div = document.createElement("div");
+            div.className = "p-3 cursor-pointer text-gray-800 hover:bg-indigo-100 transition duration-150 rounded-lg mx-1 my-0.5";
+            div.textContent = `${match.key}: ${match.stringValue}`;
+            
+            div.onclick = () => {
+                // Change the selected API value to the entire object
+                selectedValueForAPI = match.object;
+                selectedValueForDisplay = match.key; 
+
+                searchBox.value = match.key;
+                // Display the entire object in the output area
+                output.textContent = JSON.stringify(match.object, null, 2);
+                suggestionsDiv.style.display = "none";
+                errorMsg.textContent = "";
+            };
+            suggestionsDiv.appendChild(div);
+        });
+        suggestionsDiv.style.display = "block";
+    }
+});
+
+// --- API & CACHING LOGIC (Single Query) ---
+
+// Send single key to Gemini (with caching)
+document.getElementById("sendToGemini").addEventListener("click", async () => {
+    if (!selectedValueForAPI) {
+        return displayMessage("❌ Please select an entry from the search suggestions first.", true);
+    }
+    
+    const sendButton = document.getElementById("sendToGemini");
+    sendButton.disabled = true;
+    output.innerHTML = `
+        <div class="flex items-center text-indigo-600 font-semibold">
+            <span class="loading-animation"></span>
+            <span class="ml-2">⏳ Checking saved responses or calling Gemini API...</span>
+        </div>`;
+
+    try {
+        // Now send the entire object as the prompt
+        const valueString = JSON.stringify(selectedValueForAPI); 
+        const prompt = valueString; 
+        
+        // Use the object string for caching key
+        const safeKey = valueString; 
+
+        const currentModel = modelSelector.value;
+
+        const res = await fetch("http://localhost:3000/askGemini", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ promptKey: safeKey, prompt, modelOverride: currentModel })
+        });
+
+        if (!res.ok) {
+            throw new Error(`Server returned status ${res.status}. Ensure your local server is running.`);
+        }
+
+        const data = await res.json();
+        
+        const badgeCache = data.cached
+            ? `<span class='badge badge-cache'>🟢 Cache</span>`
+            : `<span class='badge badge-api'>🔵 API</span>`;
+        const badgeModel = `<span class='badge badge-model'>🧠 ${data.model}</span>`;
+        
+        const title = selectedValueForDisplay || "Selected Term";
+
+        const responseText = data.response || data.error || "⚠️ No response received from the API/Server.";
+        
+        // Use the single-query renderer
+        renderResponse(`<b>${title}</b> ${badgeCache}${badgeModel}<br><br>${responseText}`);
+        errorMsg.textContent = "";
+
+    } catch(err) {
+        displayMessage(`❌ Connection Error: ${err.message}. Please ensure a Node.js server with the required endpoints is running on http://localhost:3000.`, true);
+    } finally {
+        sendButton.disabled = false;
+    }
+});
+
+// --- BATCH PROCESSING LOGIC (Delegated to Server) ---
+
+startButton.addEventListener("click", startBatchProcessing);
+
+async function startBatchProcessing() {
+    if (!Array.isArray(jsonData) || jsonData.length === 0) {
+        return displayMessage("❌ Please load a JSON file (array of objects) first.", true);
+    }
+
+    startButton.disabled = true;
+    errorMsg.textContent = "";
+    
+    // Send the entire jsonData array. The server is responsible for processing each object sequentially.
+    const dataToProcess = jsonData;
+    const modelSwitchLimit = parseInt(modelSwitchLimitInput.value, 10);
+    
+    // Get all model options from the selector
+    // NOTE: This array is used by the server for alternation
+    const allModels = Array.from(modelSelector.options).map(opt => opt.value);
+
+    processingStatus.innerHTML = `
+        <div class="flex items-center text-purple-600 font-semibold">
+            <span class="loading-animation" style="border-top-color:#8b5cf6;"></span>
+            <span class="ml-2">⏳ Sending ${dataToProcess.length} entries to server for sequential processing (Model switch every ${modelSwitchLimit})...</span>
+        </div>`;
+    output.textContent = "Server is processing. This may take a moment. Results will appear here.";
+
+
+    try {
+        const res = await fetch("http://localhost:3000/generateAll", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ 
+                jsonArray: dataToProcess, 
+                models: allModels,
+                modelSwitchLimit: modelSwitchLimit
+            })
+        });
+
+        if (!res.ok) {
+            throw new Error(`Server returned status ${res.status}. Check server console for details.`);
+        }
+
+        const data = await res.json();
+        const allResponses = data.allResponses;
+        
+        if (!allResponses || allResponses.length === 0) {
+             throw new Error("Server returned an empty or invalid response array.");
+        }
+
+        // --- Completion ---
+        processingStatus.innerHTML = `<span class="text-green-600 font-bold">✅ Processing Complete! ${allResponses.length} entries processed. Results saved locally on the server.</span>`;
+        
+        // Render all results combined
+        const combinedText = allResponses.map(r => 
+            // Correctly access 'response' and display status/model for each item
+            `Key: ${r.key}\nStatus: ${r.cached ? 'CACHE HIT' : 'API CALL'}\nModel: ${r.model}\nResponse:\n${r.response}`
+        ).join("\n\n---\n\n");
+        
+        // Use true for bulk rendering which keeps formatting minimal
+        renderResponse(combinedText, true); 
+
+    } catch (err) {
+        processingStatus.innerHTML = `<span class="text-red-600 font-bold">❌ Error during batch processing.</span>`;
+        displayMessage(`❌ Batch Processing Error: ${err.message}. Ensure the server is running and the JSON format is correct.`, true);
+    } finally {
+        startButton.disabled = false;
+    }
+}
+
+// --- RENDER LOGIC ---
+
+// Render with color highlight
+function renderResponse(text, isBulk = false) {
+    if (isBulk) {
+        // Output bulk results nicely formatted
+        output.innerHTML = `<pre class="whitespace-pre-wrap text-xs p-2">${text}</pre>`;
+        return;
+    }
+
+    // Process for single-entry response
+    let lines = text.split('\n');
+    let html = `<ul class="space-y-3">`;
+
+    lines.forEach(line => {
+        let trimmedLine = line.trim();
+
+        if (trimmedLine.length === 0 || trimmedLine.startsWith('---')) return;
+
+        if (trimmedLine.startsWith('<b>') || trimmedLine.match(/^[A-Z][a-z0-9\s]*:/)) {
+            // Title/Key line
+            html += `<li class="font-extrabold text-lg" style="color:${headingColorSelect.value}; list-style-type: none; margin-left: -1.5rem;">${trimmedLine}</li>`;
+        } else {
+            // Highlight capitalized medical terms
+            let highlighted = trimmedLine.replace(
+                /\b([A-Z]{2,}[A-Z\s,]*[A-Z])\b/g, 
+                `<span class="font-bold" style="color:${termColorSelect.value};">$1</span>`
+            );
+            
+            html += `<li class="text-sm">${highlighted}</li>`;
+        }
+    });
+
+    html += `</ul>`;
+    output.innerHTML = html;
+}
+</script>
+</body>
+</html>

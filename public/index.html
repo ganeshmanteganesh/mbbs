@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>JSON Search & Gemini</title>
+<style>
+body { font-family: Arial; margin:30px; background:#f4f7fb; }
+.container { max-width:600px; margin:auto; background:#fff; padding:20px; border-radius:10px; box-shadow:0 0 10px rgba(0,0,0,0.1); }
+input, button { width:100%; padding:10px; margin-top:10px; border-radius:8px; border:1px solid #ccc; }
+button { background:#0078d7; color:white; cursor:pointer; }
+button:hover { background:#005fa3; }
+#suggestions { border:1px solid #ccc; max-height:150px; overflow-y:auto; display:none; background:#fff; position:absolute; width:95%; z-index:100; }
+#suggestions div { padding:6px; cursor:pointer; }
+#suggestions div:hover { background:#e0e0e0; }
+pre { background:#ffffff; padding:10px; border-radius:8px; white-space:pre-wrap; margin-top:10px; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h2>JSON Search & Gemini</h2>
+  <input type="file" id="jsonFile" accept=".json">
+  <input type="text" id="searchBox" placeholder="Type any key or value...">
+  <div id="suggestions"></div>
+  <button id="sendToGemini">Send to Gemini</button>
+  <button id="generateAll">Generate All Responses & Save</button>
+  <h3>Selected Key Value / Response:</h3>
+  <pre id="output">Nothing selected yet...</pre>
+</div>
+
+<script>
+let jsonData = [];
+let selectedKey = "";
+let selectedValue = null;
+const searchBox = document.getElementById("searchBox");
+const suggestionsDiv = document.getElementById("suggestions");
+const output = document.getElementById("output");
+
+// Load JSON file
+document.getElementById("jsonFile").addEventListener("change", function(e) {
+  const file = e.target.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = e => {
+    try {
+      jsonData = JSON.parse(e.target.result);
+      alert("✅ JSON loaded!");
+    } catch(err) {
+      alert("❌ Invalid JSON file!");
+    }
+  };
+  reader.readAsText(file);
+});
+
+// Flatten first-level keys
+function getEntries(obj) {
+  const entries = [];
+  for (let key in obj) entries.push({ key, value: obj[key] });
+  return entries;
+}
+
+// Live search
+searchBox.addEventListener("input", function() {
+  const query = this.value.toLowerCase();
+  suggestionsDiv.innerHTML = "";
+  if (!query) { suggestionsDiv.style.display = "none"; return; }
+
+  const firstMatches = [];
+  const otherMatches = [];
+
+  jsonData.forEach(obj => {
+    const entries = getEntries(obj);
+    const firstKey = Object.keys(obj)[0];
+
+    entries.forEach(e => {
+      if ((""+e.value).toLowerCase().includes(query)) {
+        if (e.key === firstKey) firstMatches.push(obj);
+        else otherMatches.push(obj);
+      }
+    });
+  });
+
+  const matches = [...new Set([...firstMatches, ...otherMatches])];
+
+  matches.forEach(obj => {
+    const div = document.createElement("div");
+    const firstKey = Object.keys(obj)[0];
+    div.textContent = `${firstKey}: ${(""+obj[firstKey]).substring(0,50)}${(""+obj[firstKey]).length>50?"...":""}`;
+    div.onclick = () => {
+      selectedKey = Object.keys(obj)[0];
+      selectedValue = obj[selectedKey];
+      searchBox.value = selectedKey;
+      output.textContent = JSON.stringify(selectedValue, null, 2);
+      suggestionsDiv.style.display = "none";
+    };
+    suggestionsDiv.appendChild(div);
+  });
+  suggestionsDiv.style.display = matches.length ? "block" : "none";
+});
+
+// Send to Gemini for single key
+document.getElementById("sendToGemini").addEventListener("click", async () => {
+  if (!selectedKey) return alert("Select a key first!");
+
+  const prompt = `Explain medically in detail. IMPORTANT TERMS CAPITALIZED.
+Value: ${JSON.stringify(selectedValue)}`;
+
+  output.textContent = "⏳ Sending to Gemini...";
+
+  try {
+    const res = await fetch("http://localhost:3000/askGemini", {
+      method:"POST",
+      headers:{"Content-Type":"application/json"},
+      body: JSON.stringify({prompt})
+    });
+    const data = await res.json();
+    let text = data.text || data.error || "⚠️ Empty response";
+
+    let points = text.split(/\n|\. |\*|-/).filter(p=>p.trim()!=="");
+    let html="<ul>";
+    points.forEach(p=>{
+      let line=p.trim();
+      let highlighted=line.replace(/\b([A-Z]{2,})\b/g,'<span style="color:red;font-weight:bold;">$1</span>');
+      html+=`<li>${highlighted}</li>`;
+    });
+    html+="</ul>";
+    output.innerHTML = html;
+  } catch(err){ output.textContent="❌ Error: "+err.message }
+});
+
+// Generate all responses
+document.getElementById("generateAll").addEventListener("click", async ()=>{
+  if (!jsonData.length) return alert("Load JSON first!");
+  output.textContent="⏳ Generating all responses...";
+
+  try {
+    const res = await fetch("http://localhost:3000/generateAll", {
+      method:"POST",
+      headers:{"Content-Type":"application/json"},
+      body: JSON.stringify({ jsonArray: jsonData })
+    });
+    const data = await res.json();
+    output.textContent="✅ All responses saved in /responses folder.";
+  } catch(err){ output.textContent="❌ Error: "+err.message }
+});
+</script>
+</body>
+</html>

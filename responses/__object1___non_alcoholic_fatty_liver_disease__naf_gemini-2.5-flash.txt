@@ -1,0 +1,29 @@
+**Non-alcoholic Fatty Liver Disease (NAFLD) / Non-alcoholic Steatohepatitis (NASH)**
+
+**Definition:**
+NON-ALCOHOLIC FATTY LIVER DISEASE (NAFLD) is a spectrum of conditions characterized by EXCESSIVE FAT ACCUMULATION (STEATOSIS) in the LIVER CELLS, not caused by significant ALCOHOL CONSUMPTION. NON-ALCOHOLIC STEATOHEPATITIS (NASH) represents the more severe form, involving LIVER INFLAMMATION, HEPATOCYTE INJURY (BALLOONING), and FIBROSIS, which can progress to CIRRHOSIS.
+
+**Etiology and Risk Factors:**
+The central pathogenic mechanism is INSULIN RESISTANCE. Major risk factors include OBESITY (particularly VISCERAL ADIPOSITY), TYPE 2 DIABETES MELLITUS, DYSLIPIDEMIA (characterized by HYPERTRIGLYCERIDEMIA and low HDL CHOLESTEROL), and METABOLIC SYNDROME. Other contributing factors include RAPID WEIGHT LOSS, BARIATRIC SURGERY, GENETIC PREDISPOSITION, and certain MEDICATIONS such as AMIODARONE, METHOTREXATE, TAMOXIFEN, and CORTICOSTEROIDS.
+
+**Clinical Presentation:**
+NAFLD is often ASYMPTOMATIC and frequently discovered INCIDENTALLY during routine LIVER FUNCTION TESTS (LFTs) or IMAGING for other conditions. Non-specific symptoms may include FATIGUE, MALAISE, or mild RIGHT UPPER QUADRANT (RUQ) DISCOMFORT or dull pain. HEPATOMEGALY may be detected on physical exam or imaging. NASH, especially with advancing FIBROSIS, may present with more pronounced symptoms or signs of progressive LIVER DISEASE, such as JAUNDICE, ASCITES, EDEMA, SPLENOMEGALY, or VARICEAL BLEEDING if CIRRHOSIS develops.
+
+**Diagnosis:**
+Diagnosis involves a multi-pronged approach:
+*   **LABORATORY TESTS:** LIVER FUNCTION TESTS (LFTs) often show mild to moderate elevations in ALT/AST (typically ALT > AST). Other blood tests include FASTING GLUCOSE/HbA1c, LIPID PROFILE, and markers for INSULIN RESISTANCE. It is crucial to rule out other causes of LIVER DISEASE through tests like VIRAL HEPATITIS SEROLOGY, AUTOIMMUNE MARKERS, CERULOPLASMIN, and ALPHA-1 ANTITRYPSIN levels.
+*   **IMAGING:** ABDOMINAL ULTRASOUND is often the initial diagnostic tool, revealing a HYPERECHOIC ('bright') LIVER due to fat infiltration. CT SCANS and MRI (especially PROTON DENSITY FAT FRACTION - PDFF) offer more sensitive quantification of hepatic fat.
+*   **NON-INVASIVE FIBROSIS ASSESSMENT:** These methods are vital for identifying NASH with advanced FIBROSIS. They include ELASTOGRAPHY (e.g., FIBROSCAN, ACOUSTIC RADIATION FORCE IMPULSE - ARFI, MR ELASTOGRAPHY) and SERUM FIBROSIS MARKERS (e.g., FIB-4, APRI score).
+*   **LIVER BIOPSY:** Considered the GOLD STANDARD for definitively diagnosing NASH and accurately staging the degree of LIVER FIBROSIS, providing essential prognostic information.
+
+**Treatment:**
+The cornerstone of NAFLD/NASH management is LIFESTYLE MODIFICATION:
+*   **WEIGHT LOSS:** A 5-10% reduction in body weight can significantly improve NASH, with >10% loss potentially leading to FIBROSIS REGRESSION.
+*   **DIETARY CHANGES:** Emphasize reducing REFINED CARBOHYDRATES, SUGARY DRINKS, SATURATED and TRANS FATS, while increasing consumption of FRUITS, VEGETABLES, and WHOLE GRAINS.
+*   **PHYSICAL ACTIVITY:** Regular AEROBIC and RESISTANCE EXERCISE is recommended.
+*   **MANAGEMENT OF ASSOCIATED METABOLIC CONDITIONS:** This includes optimal GLYCEMIC CONTROL for DIABETES, LIPID-LOWERING THERAPY for DYSLIPIDEMIA, and ANTIHYPERTENSIVES for HYPERTENSION.
+*   **PHARMACOLOGICAL AGENTS:** Several drugs are under investigation or used in specific cases, such as VITAMIN E (for non-diabetic NASH), PIOGLITAZONE (for diabetic NASH), GLP-1 AGONISTS (e.g., LIRAGLUTIDE for diabetic NASH), and OBETICHOLIC ACID (for NASH with FIBROSIS).
+*   **AVOIDANCE OF ALCOHOL** is critical.
+
+**Complications:**
+The natural history of NAFLD includes potential progression to NASH with associated INFLAMMATION and FIBROSIS. Approximately 15-25% of NASH patients will progress to CIRRHOSIS. Significant complications include HEPATOCELLULAR CARCINOMA (HCC), which can occur even in non-cirrhotic NAFLD but has a much higher risk with CIRRHOSIS, and LIVER FAILURE. NAFLD patients also face a significantly increased risk of CARDIOVASCULAR DISEASE, which remains the leading cause of death in this population.

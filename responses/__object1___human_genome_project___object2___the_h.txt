@@ -1,0 +1,16 @@
+**Human Genome Project (HGP)**
+
+The Human Genome Project (HGP) was a landmark international scientific endeavor (1990-2003) to map and sequence the entire human genome – determining the complete order of approximately 3 billion nucleotide base pairs that constitute human DNA and identifying all human genes. This foundational project revolutionized biology and medicine by providing the blueprint of human genetics.
+
+**Core Objectives:**
+*   **Gene Identification:** Pinpoint and identify all human genes.
+*   **DNA Sequencing:** Determine the precise sequence of the 3 billion chemical base pairs within human DNA.
+*   **Data Archiving:** Store this vast genomic information in publicly accessible databases for global research.
+*   **Tool Development:** Create advanced computational tools and technologies for genomic data analysis.
+*   **ELSI:** Address the complex ethical, legal, and social implications arising from human genetic information.
+
+**Key Scientific & Medical Impacts:**
+*   **Disease Gene Discovery:** Rapidly accelerated the identification of genes linked to various diseases, aiding understanding of their molecular basis.
+*   **Diagnostic & Therapeutic Advancements:** Facilitated the development of novel genetic diagnostic tests, targeted drug therapies, and gene-based treatments.
+*   **Personalized Medicine:** Laid the essential groundwork for personalized (precision) medicine, tailoring medical treatment to an individual's unique genetic makeup.
+*   **'Omics' Fields:** Propelled significant advancements in genomics (study of genomes), proteomics (study of proteins), and bioinformatics (computational biology for genetic data).

@@ -1,0 +1,35 @@
+This JSON object outlines the emergency management of **Hemoptysis** (coughing up blood).
+
+*   **Object1: Title**
+    *   **Hemoptysis (Emergency Management):** The medical protocol for managing a patient who is actively coughing up blood, which can be a life-threatening situation.
+
+*   **Object2 & Object3: Clinical Presentation**
+    *   **Definition:** Coughing up blood, ranging from blood-streaked mucus (sputum) to pure blood.
+    *   **Massive Hemoptysis:** A medical emergency defined as coughing up a large volume of blood (>150 mL at once or >600 mL in 24 hours) or any amount that compromises the patient's airway or blood pressure (hemodynamics).
+    *   **Associated Symptoms:** Difficulty breathing (dyspnea), low blood oxygen (hypoxia), and signs that blood has entered the lungs (aspiration).
+
+*   **Object4: Diagnosis & Assessment**
+    *   **Initial Steps:** The first priority is assessing the "ABCs" - **A**irway, **B**reathing, and **C**irculation.
+    *   **Imaging:**
+        *   **Chest X-ray:** A quick, initial image to look for obvious causes like a tumor, infection (infiltrates), or fluid (effusion).
+        *   **CT Scan:** A more detailed scan to pinpoint the bleeding's location and identify the underlying pathology.
+    *   **Procedures & Labs:**
+        *   **Bronchoscopy:** A procedure where a camera is inserted into the airways to directly visualize the bleeding source.
+        *   **Blood Tests:** A Complete Blood Count (CBC) to measure blood loss, coagulation studies to check for clotting disorders, and Arterial Blood Gas (ABG) to assess oxygenation.
+        *   **Sputum Studies:** To test for causes like tuberculosis (TB), bacterial infection, or cancer cells.
+
+*   **Object5: Management & Treatment**
+    *   **Stabilization:**
+        *   **Airway Management:** The primary goal is to keep the airway clear, provide oxygen, and intubate (insert a breathing tube) if necessary.
+        *   **Positioning:** Place the patient with the bleeding lung side **down** to protect the healthy lung from being filled with blood (aspiration).
+        *   **Hemodynamic Support:** Use IV fluids and blood transfusions to treat shock from blood loss.
+    *   **Controlling the Bleed:**
+        *   **Bronchoscopy Interventions:** Use the scope to apply treatments directly to the bleeding site, such as cold saline, balloon pressure (tamponade), or laser therapy.
+        *   **Bronchial Artery Embolization:** The most common and effective treatment for massive hemoptysis. A radiologist blocks the artery supplying the bleeding site.
+        *   **Surgery:** A last resort involving removal of the affected lung tissue.
+    *   **Underlying Cause:** Treat the root problem, such as antibiotics for pneumonia or anti-tubercular drugs for TB.
+
+*   **Object6: Potential Complications**
+    *   **Immediate Threats:** Airway blockage leading to suffocation (asphyxiation) and circulatory collapse from blood loss (hypovolemic shock).
+    *   **Secondary Issues:** Aspiration pneumonia (infection from blood in the lungs).
+    *   **Outcome:** Risk of recurrence and, in severe cases, death.

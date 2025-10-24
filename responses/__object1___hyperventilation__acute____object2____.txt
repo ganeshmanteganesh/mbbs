@@ -1,0 +1,26 @@
+This JSON object provides a concise medical summary of **Acute Hyperventilation**.
+
+*   **Object1: Diagnosis**
+    *   **Acute Hyperventilation:** A state of breathing that is excessively rapid and deep, leading to the exhalation of more carbon dioxide (CO2) than the body is producing.
+
+*   **Object2: Causes (Etiology)**
+    *   A list of triggers, ranging from the most common **psychogenic** causes (anxiety, panic) to serious **organic** conditions like hypoxia (low oxygen), metabolic acidosis (the body compensates for excess acid by "blowing off" CO2), and drug toxicity.
+
+*   **Object3: Signs & Symptoms**
+    *   **Respiratory:** Rapid breathing (tachypnea) and shortness of breath (dyspnea).
+    *   **Neurological:** Lightheadedness, tingling (**paresthesias**), and muscle cramps/spasms (**tetany**).
+    *   **Scientific Basis:** The rapid loss of CO2 causes **respiratory alkalosis** (high blood pH). This leads to a decrease in ionized calcium in the blood (**hypocalcemia**), which makes nerves and muscles hyperexcitable, causing tingling and spasms.
+
+*   **Object4: Diagnosis & Workup**
+    *   **Arterial Blood Gas (ABG):** The definitive test showing the characteristic pattern of respiratory alkalosis (high pH, low PaCO2).
+    *   **Supportive Tests:** Other tests like blood work, ECG, and chest X-rays are crucial to rule out serious underlying medical causes (e.g., heart attack, pulmonary embolism).
+
+*   **Object5: Management**
+    *   The primary goal is to **treat the underlying cause**.
+    *   For psychogenic cases, **reassurance and breathing retraining** are key.
+    *   **Paper bag rebreathing** is a classic but now cautiously-used technique to increase CO2 levels, but it is dangerous if the cause is not psychogenic (e.g., if the patient is hypoxic).
+
+*   **Object6: Potential Complications**
+    *   Severe drops in CO2 can cause cerebral vasoconstriction, leading to **fainting (syncope)**.
+    *   Severe hypocalcemia can rarely progress to **tetany or seizures**.
+    *   It can worsen existing medical conditions and create a vicious cycle of panic.

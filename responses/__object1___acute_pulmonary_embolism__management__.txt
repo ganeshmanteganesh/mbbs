@@ -1,0 +1,33 @@
+This JSON object outlines the clinical management of an **Acute Pulmonary Embolism (PE)**, a blockage in the lung's arteries, typically caused by a blood clot that travels from the legs (Deep Vein Thrombosis).
+
+### **Clinical Presentation (Object3)**
+The signs and symptoms of a PE:
+*   **Common:** Sudden shortness of breath (dyspnea), sharp chest pain on inhalation (pleuritic), rapid breathing (tachypnea), and rapid heart rate (tachycardia).
+*   **Severe:** Low blood oxygen (hypoxia), bluish skin (cyanosis), and coughing up blood (hemoptysis).
+*   **Massive PE:** Can cause fainting (syncope), shock (hypotension), and signs of acute right-sided heart failure (elevated JVP, right ventricular heave), known as acute cor pulmonale.
+
+### **Diagnosis (Object4)**
+Methods used to confirm a PE:
+*   **Clinical Probability:** Wells or Geneva scores estimate the likelihood of a PE before testing.
+*   **Blood Tests:**
+    *   **D-dimer:** A sensitive but non-specific marker for clotting; a negative result helps rule out PE in low-risk patients.
+    *   **Arterial Blood Gas (ABG):** Typically shows low oxygen (hypoxia) and low carbon dioxide (hypocapnia) due to hyperventilation.
+*   **Imaging & Cardiac Tests:**
+    *   **CT Pulmonary Angiography (CTPA):** The gold standard for diagnosing PE.
+    *   **ECG:** Often shows sinus tachycardia; the classic S1Q3T3 pattern indicates right heart strain but is not always present.
+    *   **Echocardiography:** Assesses for right ventricular dysfunction, which indicates the severity of the PE.
+
+### **Treatment / Management (Object5)**
+The therapeutic interventions for PE:
+*   **Supportive Care:** Oxygen to correct hypoxia, fluids, and vasopressors (drugs to raise blood pressure) if in shock.
+*   **Anticoagulation:** The cornerstone of treatment. Initial therapy with heparin (IV or LMWH) is followed by long-term oral anticoagulants (e.g., DOACs) to prevent new clots.
+*   **Clot Removal (for severe PE):**
+    *   **Thrombolysis:** "Clot-busting" drugs (e.g., alteplase) are used in massive PE with hemodynamic instability.
+    *   **Embolectomy:** Surgical or catheter-based removal of the clot when thrombolysis is contraindicated or fails.
+*   **Prevention:** An IVC filter can be placed in the main abdominal vein to trap clots in patients who cannot take anticoagulants.
+
+### **Complications (Object6)**
+Potential adverse outcomes:
+*   **Acute:** Cardiovascular collapse, cardiac arrest, acute right heart failure, and death.
+*   **Chronic:** Recurrent PEs and chronic thromboembolic pulmonary hypertension (CTEPH), a serious condition of high blood pressure in the pulmonary arteries.
+*   **Treatment-Related:** Major bleeding is a significant risk of anticoagulation and thrombolysis.
